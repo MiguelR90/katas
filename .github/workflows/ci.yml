@@ -1,4 +1,4 @@
-name: Running tests with pytest
+name: Running basic quality checks and tests
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
   pull_request:
 
 jobs:
-  test:
+  lint-and-test:
     runs-on: ubuntu-latest
 
     steps:
@@ -17,6 +17,12 @@ jobs:
 
       - name: Install dependencies
         run: uv sync --locked --all-extras --dev
+
+      - name: Run ruff format
+        run: uv run ruff format
+
+      - name: Run ruff linter
+        run: uv run ruff check
 
       - name: Run tests
         run: uv run pytest **/*.py

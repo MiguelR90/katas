@@ -1,6 +1,5 @@
 from collections import deque
 from itertools import zip_longest
-from typing import Literal
 
 
 class TreeNode:
