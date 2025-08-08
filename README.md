@@ -1,39 +1,30 @@
 # 🥋 Miguel's Coding Katas
 
-My ~graveyard~ collection of small coding challenges to help me learn and practice programming concepts.
+My ~graveyard~ collection of coding challenges to help me learn and practice programming concepts.
 
-**Disclaimer:** Implementations are not always correct or optimal. Peruse at your own risk.
-
----
-
-## 💡 Purpose
-
-- Practice solving problems  
-- Understand common algorithms  
-- Build coding fluency  
-- Learn by doing  
+**Disclaimer:** Implementations may not always be correct or optimal. Peruse at your own risk.
 
 ---
 
-## 🧠 Topics
+## Topics and Key Concepts
 
-- Recursion  
-- Backtracking  
-- Dynamic Programming  
-- Sorting and Searching  
-- Graphs (DFS, BFS)  
-- Strings and Arrays  
-- Math and Number Theory  
+- Arrays and Strings
+- Hash Maps and Sets
+- Two Pointers
+- Sliding Window
+- Binary Search
+- Sorting Algorithms
+- Recursion and Backtracking
+- Dynamic Programming
+- Greedy Algorithms
+- Binary Trees and BSTs
+- Heaps and Priority Queues
+- Graph Algorithms (BFS/DFS)
+- Union Find (Disjoint Sets)
+- Trie (Prefix Tree)
+- Bit Manipulation
+- Stacks and Queues
+- Linked Lists
+- Topological Sort
+- Mathematics and Number Theory
 
----
-
-## 🚀 How to Use
-
-- Focus on understanding, not memorization  
-- Repetition is key  
-- Revisit problems to reinforce learning  
-- Explore as many concepts as possible  
-
----
-
-Happy coding!
