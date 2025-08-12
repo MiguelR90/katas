@@ -67,7 +67,7 @@ def dutchflag_while(nums: list[int], pivot_index: int) -> list[int]:
     return nums
 
 
-def test(dutchflag: Callable[[list[int], int], list[int]]):
+def main(dutchflag: Callable[[list[int], int], list[int]]):
     nums: list[int] = [0, 1, 2, 0, 2, 1, 1]
     import pprint
 
@@ -78,4 +78,4 @@ def test(dutchflag: Callable[[list[int], int], list[int]]):
 
 for dutchflag in [dutchflag_nestedloop, dutchflag_singleloop, dutchflag_while]:
     print()
-    test(dutchflag)
+    main(dutchflag)
